@@ -188,6 +188,22 @@ optgroup{
 }
 
 @media (max-width:1290px){
+    .cabecalho {
+        justify-content: first baseline;
+        font-size: 9px;
+    }
+
+    .w-group-2 {
+        display: block;
+    }
+
+    .w-boxes h2 {
+        height: 95px;
+    }
+
+    .w-boxes-box {
+        width: auto;
+    }
 }
 @media (max-width:720px){
     .w-group-1 {
@@ -235,5 +251,13 @@ optgroup{
     #selecao {
         margin: 10px;
         padding: 0px;
+    }
+
+    .grafico-chart {
+        width: 200px !important;
+    }
+
+    .w-grafico {
+        width: 35vh;
     }
 }

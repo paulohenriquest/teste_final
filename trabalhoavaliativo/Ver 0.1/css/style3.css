@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(146, 180, 209);
+    font-family: poppins, sans-serif;
+
+}
+.global{
+    display: flex;
+}
+.geral{
+    display: flex; 
+    width: 100%;
+}
+.conteudo-geral{
+    width: 100%;
+}
+h2{
+    font-size: 15px;
+}
+
+/*BARRA DE NAVEGAÇAO*/
+
+.bar-navegacao{
+    width: 3%;
+    background-color: #354052;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.bar-navegacao:hover{
+    width: 15%;
+}
+.bar-navegacao li{
+    padding: 10px;
+    color: white;
+    list-style: none;
+}
+.bar-navegacao li:hover{
+    cursor: pointer;
+    background-color: #01b400;
+    transition: .3s ease-in-out;    
+}
+.bar-navegacao .far{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+    width: 35px;
+    
+}
+.bar-navegacao .lista-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ativo{
+    background-color: #01b400;
+}
+/*MENU RESPONSIVO*/
+
+.fa-times{
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+.side-icon-top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.ativo{
+    background-color: greenyellow;
+    color: black;
+}
+
+/*CONTEUDO SITE*/
+
+.cabecalho{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+.cabecalho h1{
+    margin-left: 5%;
+    color: #5e5e68;
+}
+.usuario{
+    display: flex;
+    margin-right: 3%;
+    align-items: center;
+}
+.usuario i{
+    color:#afb3b2;
+}
+.btn-icon-2{
+    margin: 0px 20px;
+}
+#img-perfil{
+    border-radius:50%;
+}
+
+/*CONTEUDO*/
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   
+}
+/* notificaçao*/
+.convite{
+    border-bottom: 1px solid black;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.convite h2{
+    color: rgb(73, 73, 73);
+    font-size: 8px;
+}
+.convite .fa-times{
+    color: black;
+    margin-left: 10px;
+}
+.friends{
+    background-color: rgb(153, 153, 153);
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+    right: 8%;
+    top:10%;
+    border: none;
+    display: none;
+    
+}
+.amigos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    align-items: center;
+}
+.friends p{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+.amigos:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: black;
+}
+.cabecalho h1{
+    color: darkgray;
+    margin-left: 40px ;
+}
+.amigos button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.amigos button:hover{
+    background-color: blue;
+    color: white;
+}
+.bloco-not{
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(24, 24, 24, 0.913);
+    border-radius: 10px;
+    display: none;
+}
+.top-notifica{
+    color: white;
+}
+.mensa{
+    padding: 5px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.521);
+    margin: 5px;
+    font-size: 10px;
+    text-align: start;
+    border-radius: 10px;
+}
+.configurar{ 
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top:10%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: none;
+   
+}
+.configs{
+    font-size: 12px !important;
+    display: flex;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: darkgray;
+}
+.sair:hover{
+    cursor: pointer;
+}
+
+/* ------  */
+.usuario{
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.usuario i{
+    margin-right: 15px;
+    font-size: 20px ;
+    color: darkgray;
+}
+.foto-perfil{
+    border-radius: 50%;
+}
+.but-not{
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 10px !important;
+}
+
+.caixas {
+    display: flex;
+    margin: 15px;
+}
+
+.caixa-1 {
+    width: 60%;
+    height: 415px;
+    background: white;
+    color: darkgray;
+    padding: 15px;
+}
+
+.texto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.caixa-2-3 {
+    width: 40%;
+    height: 400px;
+    margin-left: 15px;
+    color: darkgray;
+}
+
+.caixa-2 {
+    height: 200px;
+    background: white;
+}
+
+.caixa-3 {
+    height: 200px;
+    background: white;
+    margin-top: 15px;
+}
+
+.linha-texto {
+    padding: 15px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 15px;
+}
+
+.linha-1 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+    margin-right: 30px;
+}
+
+.linha-1 h3 {
+    background: green;
+    width: 72%;
+}
+
+.linha-2 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+}
+
+.linha-2 h3{
+    background: rgb(255, 196, 0);
+    width: 42.6%;
+}
+
+.linha-3 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+    margin-left: 23px;
+}
+
+.linha-3 h3 {
+    background: blue;
+    width: 89.2%;
+}
+
+.linha-3-3 {
+    height: 0.3rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin: 0px 20px 0px 20px;
+    width: 75%;
+    margin-right: 30px;
+}
+
+.linha-3-3 h3 {
+    background: green;
+    width: 65.3%;
+}
+
+hr {
+    margin: 15px;
+}
+  
+.hr1 {
+    border-top: 1px solid #CCC;
+}
+
+/* caixas meio */
+
+.caixas-meio {
+    display: flex;
+}
+
+.meio {
+    background: white;
+    width: 24%;
+    margin: 0px 0px 0px 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.meio p {
+    color: darkgray;
+}
+
+.laranja i {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.rosa i {
+    background: rgb(255, 0, 221);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.vermelho i {
+    background: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.verde i {
+    background: green;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.caixas-baixo {
+    display: flex;
+    padding: 8px;
+    color: darkgray;
+}
+
+.caixa-e {
+    background: white;
+    width: 50%;
+    margin: 7.5px;
+}
+
+.caixa-d {
+    background: white;
+    width: 50%;
+    margin: 7.5px;
+}
+
+.colunas {
+    display: flex;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.colun {
+    width: 25%;
+}
+
+.recent {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.colun p {
+    border-top: solid 1px;
+    padding: 10px;
+    border-top: 1px solid #CCC;
+}
+
+@media (max-width:1390px){
+    .meio {
+        width: 23%;
+    }
+
+    .nav-side-bar{
+        position: fixed;
+        min-width: 160px;
+    }
+
+    .menu i {
+        top: 17px;
+    }
+
+    .menu-respon-geral{
+        display: block;
+    }
+}
+
+@media (max-width: 798px) {
+    .caixas {
+        display: block;
+    }
+
+    .caixa {
+        font-size: 12px;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .caixa-2-3 {
+        width: auto;
+        margin-left: auto;
+        margin-top: 15px;
+    }
+
+    .caixa-3 {
+        margin: auto;
+    }
+
+    .linhas-cima {
+        margin: 10px;
+    }
+
+    .linha {
+        margin: auto;
+    }
+
+    .caixas-meio {
+        display: block;
+    }
+
+    .meio {
+        width: auto;
+        margin: 15px;
+    }
+
+    .laranja {
+        margin-top: 15px;
+    }
+
+    .caixas-baixo {
+        display: block;
+    }
+
+    .caixa-e {
+        width: auto;
+    }
+
+    .caixa-d {
+        width: auto;
+    }
+
+    .colunas {
+        font-size: 5px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .colun p {
+        padding: 5px;
+    }
+
+    .fa-bars {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 16px;
+        left: 1%;
+        font-size: 30px;
+    }
+
+   
+}
