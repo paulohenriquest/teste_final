@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #e2e6e7;
+    font-family: 'Poppins', sans-serif;
+}
+.geral{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.conteudo-geral{
+    width: 100%;
+}
+.sub-conteudo-1{
+    padding: 20px;
+    display: flex;
+}
+.sub-conteudo-2{
+    padding: 20px;
+    display: flex;
+}
+.sub-conteudo-3{
+    display: flex;
+    padding: 20px;
+}
+/*BARRA DE NAVEGAÇAO*/
+
+.bar-navegacao{
+    width: 3%;
+    background-color: #354052;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.bar-navegacao:hover{
+    width: 15%;
+}
+.bar-navegacao li{
+    padding: 10px;
+    color: white;
+}
+.bar-navegacao li:hover{
+    cursor: pointer;
+    background-color: #01b400;
+    transition: .3s ease-in-out;    
+}
+.bar-navegacao .far{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+    width: 35px;
+    
+}
+.bar-navegacao .lista-top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.ativo{
+    background-color: #01b400;
+}
+/*MENU RESPONSIVO*/
+
+.fa-times{
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+/*CONTEUDO SITE*/
+
+.cabecalho{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+.cabecalho h1{
+    margin-left: 5%;
+    color: #5e5e68;
+}
+.usuario{
+    display: flex;
+    margin-right: 3%;
+    align-items: center;
+}
+.usuario i{
+    color:#afb3b2;
+}
+.btn-icon-2{
+    margin: 0px 20px;
+}
+#img-perfil{
+    border-radius:50%;
+}
+
+/* sub conteudo 1 */
+.boxes{
+    width: 33.3%;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+.boxes h2{
+    font-weight: 400;
+}
+.boxes h3{
+    font-size: 30px !important;
+    font-weight: 400;
+}
+/*sub conteudo 2*/
+.boxes-2{
+    width: 25%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.boxes-2 h2{
+    font-weight: 400;
+    font-size: 17px;
+}
+.sub-box-1{
+    margin-top: 30px;
+}
+.sub.box-1 p{
+    font-size: 12px;
+}
+.sub-box-box{
+    margin-left: 30px;
+}
+.sub-box-2{
+    margin-top: 30px;
+    display: flex;
+    border-top: 1px solid #eeeeee;
+    align-items: center;
+}
+.sub-t2 p{
+    font-size: 12px;
+    color: red;
+}
+.sub-t2{
+    margin-left: 60px;
+}
+
+/*sub conteudo 3*/
+
+.bloco-1{
+    width: 50%;
+    margin: 0px 30px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+.head-bloco{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.linhas{
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    padding:10px 25px;
+    align-items: center;
+    justify-content:space-between;
+}
+.linhas h2{
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.linhas button{
+    padding: 10px;
+    border: none;
+    color: white;
+    box-shadow: inset 0px -1px 2px 1px #b39999;
+}
+.lin1{
+    background-color: red;
+}
+.lin2{
+    background-color: #efad4d;
+}
+.lin3{
+    background-color: green;
+}
+.lin4{
+    background-color: #abb7c3;
+}
+.bloco-2{
+    width: 50%;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.linhas-2{
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+}
+.linhas-2 button{
+    padding: 10px;
+    border: none;
+    color: white;
+    box-shadow: inset 0px -1px 2px 1px #b39999;
+    margin-left:auto;
+}
+.linhas-2 p{
+    margin-left: 20px;
+}
+/*RESPOSIVIDADE*/
+
+@media (max-width:1290px){
+    .fa-bars{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 1%;
+        left: 1%;
+        font-size: 30px;
+    }
+    .bar-navegacao{
+        z-index: 2;
+        display: none;
+        position: relative;
+        width: 150px;
+    }
+    .lista-top{
+        margin-top: 20px !important;
+    }
+    .bar-navegacao .fa-times{
+        display: block;
+        font-size: 30px;
+        color: white;
+        margin-left: 70%;
+    }
+}
+
+@media (max-width:1390px){
+    .fa-bars {
+        top: 15px;
+    }
+
+    .conteudo-geral {
+        font-size: 10px;
+    }
+
+    #pie-chart {
+        width: 200px !important;
+    }
+
+    #bar-chart {
+        width: 200px !important;
+    }
+
+    #bar-chart-horizontal {
+        width: 200px !important;
+    }
+
+    .boxes {
+        width: 30%;
+    }
+
+    .sub-box-box {
+        margin-left: auto;
+    }
+
+    .boxes-2 {
+        width: 22%;
+    }
+
+    .sub-conteudo-2 {
+        font-size: 9px;
+    }
+
+    .sub-box-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .sub-t2 {
+        margin-left: 20px;
+    }
+
+    .bloco-1 {
+        width: 100%;
+        height: auto !important;
+    }
+
+    .bloco-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:1130px){
+    .sub-conteudo-1{
+        flex-wrap: wrap;
+    }
+
+    .sub-conteudo-2{
+        flex-wrap: wrap;
+    }
+    .sub-conteudo-3{
+        flex-wrap: wrap;
+    }
+    .bloco-1{
+        height: 600px;
+    }
+}
+
+@media (max-width:720px){
+    .conteudo-geral {
+        font-size: 10px;
+    }
+
+    .menu i {
+        top: 17px;
+        font-size: 25px;
+    }
+
+    .sub-conteudo-1 {
+        flex-wrap: wrap-reverse;
+        display: block;
+        padding: 0px;
+    }
+
+    .sub-conteudo-2 {
+        flex-wrap: inherit;
+        display: block;
+        padding: 0px;
+    }
+
+    .sub-conteudo-3 {
+        display: block;
+        padding: 0px;
+    }
+
+    .boxes {
+        width: auto;
+    }
+
+    .boxes-2 {
+        width: auto;
+        margin: 10px 10px
+    }
+
+    .bloco-1 {
+        width: auto;
+        height: auto;
+    }
+
+    .bloco-2 {
+        width: auto;
+    }
+
+    .head-bloco {
+        margin: auto;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+
+    .linhas {
+        padding: 5px 5px;
+    }
+
+    .linhas p {
+        width: 15%;
+    }
+
+    .linhas h2 {
+        width: 25%;
+        font-size: 12px;
+    }
+
+    .linhas button {
+        padding: 5px;
+    }
+
+    .linhas-2 button {
+        font-size: 10px;
+    }
+
+    .cabecalho {
+        justify-content: space-around;
+    }
+
+    #pie-chart {
+        width: 200px !important;
+        height: auto !important;
+    }
+
+    #bar-chart {
+        width: 200px !important;
+        height: auto !important;
+    }
+
+    #bar-chart-horizontal {
+        width: 200px !important;
+        height: auto !important;
+    }
+}
