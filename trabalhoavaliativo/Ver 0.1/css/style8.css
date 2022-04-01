@@ -1,0 +1,194 @@
+.grade-1{
+    display: flex;
+    margin: 10px;
+}
+.caixas{
+    margin: 10px;
+}
+.caixa-primaria{
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    width: 60%;
+}
+.fa-ellipsis-h{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+}
+.sub-primaria{
+    display: flex;
+    justify-content:space-between ;
+}
+.sub-primaria h3{
+    margin-top: 20px;
+}
+.fa-caret-circle-up{
+    color: green;
+}
+.fa-caret-circle-down{
+    color: red;
+}
+.caixa-secundaria{
+    position: relative;
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+}
+#bar-chart{
+    width: 100% !important;
+    height: 150px !important;
+}
+.grade-2{
+    background-color: white;
+    margin: 10px;
+}
+.grade-doc h2{
+    padding: 20px;
+}
+.ordem{
+    margin-top: 10px;
+    border-top: 1px solid rgb(146, 146, 146);
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.ordem p{
+    margin-left: 10px;
+    margin-right:6%;
+}
+.linha-doc{
+    border-top: 1px solid rgb(146, 146, 146);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 50px;
+}
+.linha-doc p{
+    margin-right: 6%;
+}
+.linha-doc button{
+    margin-right: 5%;
+    padding: 5px;
+    background-color: rgb(8, 104, 248);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.linha-doc select{
+    padding: 5px;
+}
+.linha-doc i{
+    margin-left: auto;
+    margin-right: 2%;
+    color: rgb(187, 186, 186);
+}
+.linha-doc .cor1{
+    background-color: green;
+}
+.linha-doc .cor2{
+    background-color: orange;
+}
+.linha-doc .cor3{
+    background-color: orange;
+}
+.linha-doc .cor4{
+    background-color: grey;
+}
+.linha-doc .cor5{
+    background-color: red;
+}
+.linha-doc .cor6{
+    background-color: orange;
+}
+.linha-doc .cor7{
+    background-color: green;
+}
+.linha-doc .cor8{
+    background-color: orange;
+}
+
+@media (max-width:1390px){
+    .btn-btn button {
+        margin-right: 20px;
+    }
+
+    .ordem p {
+        margin-left: 0px;
+        margin-right: 6%;
+    }
+
+    .linha-doc {
+        margin-left: 0px;
+        font-size: 7.5px;
+    }
+
+    .linha-doc select {
+        padding: 2px;
+    }
+
+    .linha-doc i {
+        margin-left: 6px;
+    }
+
+    .linha-doc p {
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 720px){
+    .conteudo-geral {
+        font-size: 8px;
+    }
+
+    .cabecalho {
+        justify-content: end;
+    }
+
+    .btn-btn button {
+        font-size: 6px;
+        margin: 10px;
+    }
+
+    .grade-1 {
+        display: block;
+    }
+
+    .grade-2 {
+        margin: 5px;
+    }
+
+    .caixas {
+        width: auto;
+    }
+
+    .linha-doc {
+        margin-left: 0px;
+        font-size: 6px;
+    }
+
+    .linha-doc p {
+        margin-right: 2%;
+    }
+
+    .linha-doc button {
+        font-size: 6px;
+        margin: 2px;
+        padding: 1px;
+    }
+
+    .linha-doc select {
+        font-size: 6px;
+        padding: 0px;
+    }
+
+    .linha-doc i {
+        margin-left: 2px;
+    }
+
+    .ordem p {
+        margin-left: 0px;
+        margin-right: 3%;
+    }
+}

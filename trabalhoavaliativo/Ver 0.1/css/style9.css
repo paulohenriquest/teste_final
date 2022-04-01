@@ -1,0 +1,87 @@
+.doc-final{
+    width: 80%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+}
+.doc-caixa-1{
+    margin:5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.doc-caixa-2{
+    margin:5% 10%;
+    display:flex;
+    justify-content: space-between;
+}
+.doc-caixa-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+.doc-linha{
+    border: 1px solid rgb(209, 209, 209);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:500px; 
+}
+.doc-linha-2 p{
+    margin-top:10px ;
+    font-size: 11px;
+}
+.alinhador{
+    width: 140px;
+}
+.doc-caixa-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    font-size: 13px;
+}
+
+@media (max-width: 1390px){
+    .doc-final {
+        padding: 0px;
+        width: 95%;
+    }
+
+    .doc-caixa-3 {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 720px){
+    .doc-final {
+        width: 95%
+    }
+
+    .cabecalho {
+        font-size: 8px;
+    }
+
+    .btn-btn button {
+        font-size: 8px;
+        margin-right: 3px;
+    }
+
+    .doc-linha {
+        justify-content: center;
+        width: 215px;
+    }
+
+    .doc-linha-1 {
+        margin: 5px;
+    }
+
+    .doc-caixa-3 {
+        margin: 5px;
+        font-size: 8px;
+    }
+
+    .doc-caixa-4 {
+        font-size: 10px;
+    }
+}
