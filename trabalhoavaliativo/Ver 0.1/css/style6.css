@@ -1,0 +1,312 @@
+.bloco-mestre{
+    display: flex;
+}
+.sub-blocos{
+    width: 50%;
+    margin: 20px; 
+}
+.sub-bloco-1{
+    background-color: #ffff;
+}
+.sub-navegacao{
+    display: flex;
+    font-size: 10px;
+    height: 55px;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+}
+.sub-navegacao h2{
+    margin: 10px;
+    color: rgb(99, 98, 98);
+    margin-bottom: 10px;
+}
+.user-bloqueado{
+    margin-top: 10px;
+    padding: 10px;
+}
+.block-title{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.544);
+    height: 50px;
+}
+.user-bloqueado p{
+    text-align: left;
+}
+.conteudo-texto{
+    padding: 14px;
+}
+.conteudo-texto h2{
+    font-size: 14px ;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.conteudo-texto strong{
+    font-size: 14px 
+}
+.conteudo-texto h5{
+    font-size: 10px ;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.conteudo-texto p{
+    font-size: 14px;
+}
+.sub-cont-top-text{
+    display: flex;
+    align-items: baseline;
+}
+.sub-cont-top-text i{
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 9px;
+}
+.sub-cont-today{
+    margin-bottom: 20px;
+}
+.icon-1{
+    color: orangered;
+}
+.icon-2{
+    color: green;
+}
+.icon-3{
+    color: red;
+}
+.sub-cont-today p{
+    height: 30px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.title-cont-top h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(177, 177, 177);
+}
+/* RIGHT PART*/
+.sub-bloco-2{
+    width: 50%;
+}
+.sub-caixa-1{
+    background-color: #ffff;
+}
+.top-perfil img{
+    margin-top: 60px;
+    border-radius: 50%;
+    width: 60px;
+    height: 80px;
+}
+.top-perfil{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.perfil-butao{
+    display: flex;
+    justify-content: center;
+}
+.perfil-butao button{
+    width: 45%;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.perfil-butao button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 81, 255);
+    color: white;
+
+}
+.rating{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    border-top:1px solid rgb(206, 202, 202);
+    border-bottom:1px solid rgb(206, 202, 202);
+}
+.rating{
+    text-align: center;
+    
+}
+.rating h2{
+    font-size: 12px ;
+    color: rgb(99, 99, 99);
+}
+.rating h3{
+    font-size: 15px;
+}
+.produto{
+    padding: 10px;
+    border-bottom:1px solid rgb(206, 202, 202);
+}
+.sub-produto{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    
+}
+.sub-produto i{
+    margin-right: 20px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+.sub-p-1 i{
+    background-color: green;
+}
+.sub-p-2 i{
+    background-color: purple;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.sub-caixa-2{
+    background-color: #ffff;
+    margin-top: 15px;
+    padding: 10px;
+}
+.cartao-info{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.cartao-info i{
+    margin-right: 10px;
+}
+.cartao-info h3{
+    margin-left:40%;
+}
+.cartao-info p{
+    margin-left: auto;
+    font-size: 15px;
+}
+.info-geral{
+    border-top: 1px solid rgb(210, 207, 207);
+    margin-top: 15px;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.card-info h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+.show0{
+    display: block;
+}
+.show1{
+    display: none;
+}
+.show2{
+    display: none;
+}
+.show3{
+    display: none;
+}
+.show4{
+    display: none;
+}
+
+@media (max-width:1390px) {
+    .bloco-mestre {
+        display: block;
+    }
+
+    .sub-blocos {
+        width: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .cabecalho {
+        font-size: 8px;
+    }
+
+    .bloco-mestre {
+        display: block;
+    }
+
+    .sub-blocos {
+        width: auto;
+        margin: 10px;
+        font-size: 9px;
+    }
+
+    .sub-navegacao h2 {
+        margin: 7px;
+        font-size: 9px;
+        width: 20%;
+    }
+
+    .title-cont-top h2 {
+        font-size: 12px
+    }
+
+    .conteudo-texto h2 {
+        font-size: 10px;
+    }
+
+    .conteudo-texto strong {
+        font-size: 10px;
+    }
+
+    .sub-cont-today p {
+        font-size: 7px;
+    }
+
+    .top-perfil img {
+        width: 50px;
+        height: 60px;
+    }
+
+    .ratings {
+        font-size: 7px;
+    }
+
+    .ratings h2 {
+        font-size: 10px;
+    }
+
+    .sub-produto {
+        font-size: 10px;
+    }
+
+    .sub-produto i {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cartao-info {
+        font-size: 8px;
+    }
+
+    .cartao-info h3 {
+        margin: 0 auto;
+    }
+
+    .card-info {
+        font-size: 8px;
+    }
+
+    .card-info h2 {
+        font-size: 9px;
+    }
+
+    .card-info h3 {
+        font-size: 8px;
+    }
+}

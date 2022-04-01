@@ -1,0 +1,87 @@
+.candidatos{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.candidato{
+    padding: 10px;
+    background-color: white;
+    width: 32%;
+    position: relative;
+    margin: 10px;
+}
+.desktop{
+    width: 100%;
+}
+.img-candidato{
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid white;
+    top: 65%;
+    left: 1%;
+}
+.perfil-info{
+    margin-left: 22%;
+    margin-top: 35px;
+}
+.localizacao{
+    display: flex;
+    align-items: center;
+}
+.localizacao i{
+    margin-right: 5px;
+}
+.icons-info{
+    position: absolute;
+    right: 3%;
+    top: 78%;
+    color: rgb(194, 194, 194);
+}
+.perfil-butao{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.perfil-butao button{
+    width: 50%;
+    height: 35px;
+    border: none;
+    background-color: rgb(57, 57, 243);
+    color: white;
+    border-radius: 5px;
+}
+.perfil-butao p{
+    color: green;
+}
+
+@media (max-width: 1390px) {
+
+    .candidatos {
+        display: block;
+    }
+
+    .candidato {
+        width: auto;
+    }
+
+    .desktop {
+        width: 100%;
+        height: 450px;
+    }
+
+    .img-candidato {
+        top: 70%
+    }
+}
+
+
+@media (max-width: 798px) {
+    .candidatos {
+        display: block;
+    }
+
+    .candidato {
+        width: auto;
+    }
+}

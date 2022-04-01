@@ -1,0 +1,166 @@
+.boxes-wel{
+    display: flex;
+    margin: 10px;
+}
+.box-wel{
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(230, 230, 230);
+    border-radius: 5px;
+    position: relative;
+}
+.box-wel h3{
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+.box-wel-1{
+    background-color: #00004b;
+}
+.box-wel-2{
+    background-color: #9acd32;
+}
+.box-wel-3{
+    background-color: orange;
+}
+.box-wel-4{
+    background-color: orangered;
+}
+.seta{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 70px;
+    color: #ffffff52;
+}
+.sub-box-wel{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid whitesmoke;
+}
+/*boxes 2*/
+
+.boxes-wel-2{
+    margin: 20px;
+    background-color: white;
+}
+.info-top{
+    display: flex;
+    align-items: baseline;
+    padding: 20px;
+}
+.info-top h2{
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+.info-top .fa-cloud-download{
+    margin-left:auto;
+    font-size: 1.8rem;
+    color: grey;
+}
+.sub-info-top{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    width: 80%;
+    font-weight: 500;
+}
+.projeto{
+    display: flex;
+    border-top: 1px solid #8080804f;
+    height: 70px;
+    align-items: center;
+}
+.projeto select{
+    margin-right: 40px;
+}
+.sub-text h2{
+    font-size: 15px;
+}
+.sub-text{
+    margin: 0px 20px;
+    width: 100%;
+}
+.sub-text-5{
+    display: flex;
+    align-items: center;
+}
+.sub-text-5 h2{
+    margin-left: 10px;
+}
+.proj-1{
+    border-left: 2px solid red;
+}
+.proj-1 .sub-text-2 p{
+    color: red;
+}
+.proj-1 .sub-text-5 i{
+    color: orange;
+}
+.proj-2 .sub-text-5 i{
+    color: blue;
+}
+.proj-3 .sub-text-4 p{
+    color: red;
+}
+.proj-3 .sub-text-5 i{
+    color: greenyellow;
+}
+.proj-4{
+    border-left: 2px solid red;
+}
+.proj-4 .sub-text-2 p{
+    color: red;
+}
+.proj-4 .sub-text-5 i{
+    color: orange;
+}
+.proj-5 .sub-text-5 i{
+    color: blue;
+}
+
+
+@media (max-width: 798px) {
+    .boxes-wel {
+        display: block;
+    }
+
+    .box-wel {
+        width: auto;
+    }
+
+    .sub-text {
+        font-size: 9px;
+        margin: 0px 3px;
+        width: 20%;
+    }
+
+    .sub-text h2 {
+        font-size: 8px;
+    }
+    
+    .projeto select {
+        margin-right: 40px;
+        font-size: 9px
+    }
+
+    .sub-text-2 {
+        margin-left: 5px;
+    }
+
+    .projeto select {
+        margin-right: 2px;
+    }
+
+    .sub-info-top {
+        width: 100%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+}
+
